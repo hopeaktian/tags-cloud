@@ -13,7 +13,7 @@
 .navbar .member a:hover { background:none; color:#378bd6;}
 .navbar .member img{ width:24px; height:24px; border-radius:12px; vertical-align:middle; margin:0 5px 3px 0;}
 
-header { clear:both; height:150px; width:100%; background:#fff; z-index:9998; border-bottom:1px solid #ddd;}
+search { clear:both; height:150px; width:100%; background:#fff; z-index:9998; border-bottom:1px solid #ddd;}
 header .wrap { width:1050px; margin:0 auto; height:100%; position:relative;}
 #headlogo { display:block; position:absolute; width:270px; height:83px; left:0; bottom:30px; z-index:9997;}
 #headlogo img { max-width:100%!important; height: auto!important; _width:expression(this.width > 100 ? "100%" : this.width)!important;}
@@ -100,6 +100,22 @@ header.small .notice-area { display:none;}*/
 @media screen and (max-width: 766px) {
 	header { background-color: #f7f7f8; width:100%; height:49px; position:fixed; top:0; left:0; z-index:9996;}
 	header .wrap { height:auto; position:static;}
+	
+	search { background-color: #f7f7f8; width:100%; height:57px; position:fixed; top:40px; left:0; z-index:9996;}
+	search .wrap { height:auto; position:static;}
+	
+	#headtitle{position: absolute;
+            top: 50%;
+            left: 50%;
+            -webkit-transform: translate(-50%, -50%);
+            -moz-transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            -o-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+            font-size: 1.0rem;
+			font-weight: 500;
+			color: #3d4145;
+	}
 	
 	#headlogo { width:151.2px; height:61.6px; left:10px; top:5px; z-index:999;}
 	#menu-btn1 { display:block; width:30px; height:40px; position:absolute; top:5px; left:10px; background:url(../img/left.png) no-repeat center; background-size:21px 14px;}
